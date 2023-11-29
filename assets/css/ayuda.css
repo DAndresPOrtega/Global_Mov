@@ -1,0 +1,221 @@
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=PT+Sans+Narrow&display=swap');
+
+
+body {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.fondo{
+    background-image: url(../img/call_center.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.titulo{
+    padding: 250px 100px 100px 100px;
+
+}
+.titulo h3{
+    text-shadow: 2px 2px 2px white;
+    padding: 2px;
+    border-radius: 10px;
+    width: 150px;
+    color: black;
+    font-family: Arial Black;
+
+}
+.titulo p{
+    font-family: 'Assistant', sans-serif;
+    text-shadow: 2px 2px 2px white;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: black;
+    
+
+}
+
+.titulo a{
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0px 5px 2px 0px black;
+    position: static;
+
+
+}
+
+/*CContenido*/
+
+.contenido{
+    display: block;
+    background-color: white;
+    
+}
+
+.cont_info_form{
+    font-family: 'Assistant', sans-serif;
+
+    display: flex;
+}
+
+@media screen and (max-width:500px){
+    .cont_info_form{
+        display: block;
+
+
+    }
+
+}
+
+.cont_info_form .info{
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
+.cont_info_form .info .cont .direccion img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.cont_info_form .info .cont .correo img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.cont_info_form .info .cont .llamar img{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.cont_info_form .formulario form{
+    display: auto;
+    padding: 25px;
+    background-color: rgb(231, 228, 228);
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+    
+}
+
+@media screen and (max-width:500px){
+    .cont_info_form .formulario form{
+        display: inline-block;
+        height: auto;
+        width: 400px;
+        margin: 10px;
+
+
+    }
+
+}
+
+.cont_info_form .formulario form h5{
+    font-family: 'Assistant', sans-serif;
+    margin: 0px;
+}
+
+.cont_info_form .formulario form input{
+    font-family: 'Assistant', sans-serif;
+    margin:10px;
+    height:40px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.cont_info_form .formulario form select{
+    font-family: 'Assistant', sans-serif;
+    margin:10px;
+    height:40px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+.cont_info_form .formulario label{
+    font-family: 'Assistant', sans-serif;
+    margin-left: 50px;
+}
+.cont_info_form .formulario .number{
+    font-family: 'Assistant', sans-serif;
+    margin:10px;
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.cont_info_form .formulario button{
+    font-family: 'Assistant', sans-serif;
+    margin:30px;
+    width: 250px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 114);
+    color: white;
+}
+
+.cont_info_form .formulario button:hover{
+    background-color: rgb(117, 117, 177);
+    background-color: white;
+    border-color: rgb(44, 44, 114);
+    color:rgb(44, 44, 114);
+    transition: 0.3s ease-in-out;
+
+}
+
+@media screen and (max-width:600px){
+    .cont_info_form .formulario{
+        display: block;
+        width: 300px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .cont_info_form .formulario .info
+    .formulario img{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .formulario h3{
+        margin-left: 70px;
+
+    }
+
+    .formulario input{
+        margin-left: 130px;
+
+    }
+
+    .formulario select{
+        margin-left: 130px;
+    }
+
+    .formulario label{
+        margin-left: 130px;
+
+    }
+    .formulario button{
+        margin-left: 130px;
+
+    }
+
+}

@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Nanum+Myeongjo:wght@400;800&family=PT+Sans+Narrow&display=swap');
+.fondo_noticia{
+    background-image: url(../img/fondo_pag_not.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.contenido_noticia{
+    padding-left: 200px;
+}
+
+.titulo{
+    padding: 250px 100px 50px 100px;
+    
+
+}
+
+.titulo h3{
+    padding: 2px;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    font-family: Arial Black;
+
+}
+.titulo p{
+    font-family: 'Assistant', sans-serif;
+    text-shadow: 5px px 1px white;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+.titulo a{
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0px 5px 2px 0px black;
+    position: static;
+
+}
+
+
+@media screen and(max-width:600px){
+    .titulo{
+        padding: 50px;
+    }
+}
+
+
+.fondo_noticia{
+    width: 100%;
+    justify-content: center;
+    display: block;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.contenido_noticia{
+    margin: 0px 0px 0px 0px;
+}
+
+.contenido_noticia .cabeza{
+    justify-content: left;
+    width: 90%;
+}
+
+
+.contenido_noticia .cabeza .titular{
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+
+}
+
+@media screen and (max-width:500px){
+    .contenido_noticia .cabeza .titular{
+        display: block;
+    }
+
+}
+
+.titular .texto h5{
+    font-family: 'Nanum Myeongjo', serif;
+    color: black solid;
+    font-size: 35px;
+    width: 70%;
+    
+}
+
+.titular .texto p{
+    font-family: 'Nanum Myeongjo', serif;
+    color: black solid;
+    font-size: 20px;
+    width: 70%;
+}
+
+.titular .imagen_noticia img{
+
+    width: 500px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 5px 6px 3px 1px black;
+}
+
+
+.cuerpo{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.noticia_cont{
+    box-shadow: 5px 6px 3px 1px black;
+}
+
+.parafrasear h6 .link .align-links .item-title p{
+    font-size: 20px;
+    color: black;
+    text-shadow: white;
+    font-family: 'Nanum Myeongjo', serif;
+    background-color: #f4f5f6;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 25px;
+    border: 1px solid #e6e6e6;
+  }
+
+
+  .noticias_recomendadas{
+    display: flex;
+  }
+
+  .image_not {
+    position: absolute;
+    margin: 15px;
+    position: relative;
+    width: 300px;
+    border-radius: 10px;
+
+  }
+
+  .image {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    display: block;
+    transition: filter 0.3s ease-in-out;
+
+  }
+
+  .overlay {
+    border-radius: 10px;
+    padding: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .image_not:hover .image {
+    filter: brightness(0.7); /* Puedes ajustar este valor según tus preferencias */
+  }
+
+  .image_not:hover .overlay {
+    opacity: 1;
+  }
+
+  .text {
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .sub{
+    font-size: 15px;
+
+  }
+/* 
+
+.noticias_fondo{
+    margin: 50px 100px 50px 50px;
+    grid-gap: 15px;
+    display: flex;
+}
+
+
+.noticias_fondo .fondo1 p{
+    background-image: linear-gradient(rgba(0,0,100,0.5), rgba(0,0,0,0.5)), url(../img/noticia-1.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: black; 
+    border-radius: 5px;
+}
+
+
+.noticias_fondo .fondo2 p{
+    background-image: url(../img/noticia-2.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: black; 
+    border-radius: 5px;
+}
+
+.noticias_fondo .fondo3 p{
+    background-image: url(../img/noticia-3.jpeg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: black; 
+    border-radius: 5px;
+}
+
+.noticias_fondo .fondo4 p{
+    background-image: url(../img/noticia-4.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: white; 
+    border-radius: 5px;
+}
+
+
+.noticias_fondo .fondo5 p{
+    background-image: url(../img/noticia-5.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: white; 
+    border-radius: 5px;
+}
+
+.noticias_fondo .fondo6 p{
+    background-image: url(../img/noticia-6.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;	
+    width: 250px;
+    height: 200px;
+    padding: 50px 50px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 20px;
+    color: white; 
+    border-radius: 5px;
+}
+

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=PT+Sans+Narrow&display=swap');
+
+.contenido-prod{
+    margin-top: 100px;
+    display: block;
+}
+
+.migas_de_pan{
+    font-family: 'Assistant', sans-serif;
+    background-color: white;
+    padding: 25px 0px 5px 150px; 
+}
+
+.migas_de_pan .a{
+    color: black bold;
+    text-decoration: none;
+
+}
+
+.contenedor-producto{
+    width: 100%;
+    height: auto;
+}
+@media screen and(max-width:600px){
+    .contenedor-producto{
+        display: block;
+    }
+    
+}
+#info_prod{
+    background-color: rgb(219, 216, 216);
+    padding: 20px;
+    border-radius: 5px 5px 0px 0px;
+    width: 50%;
+}
+
+#info_prod .cabeza{
+    font-family: 'PT Sans Narrow', sans-serif;
+    text-decoration:none;
+}
+
+#info_prod .marca{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+
+#info_prod .nombre{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+#info_prod .descripcion{
+    font-family: 'Assistant', sans-serif;
+}
+
+
+
+
+#info_prod .precio h4{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: blue;
+}
+
+#info_prod .descuento h5{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+    text-decoration: line-through;
+}
+
+.cantidad_prod{
+    font-family: 'Assistant', sans-serif;
+    margin-left: 10px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.boton{
+    font-family: 'Assistant', sans-serif;
+    margin-left: 55px;
+}
+
+.comprar{
+    font-family: 'Assistant', sans-serif;
+    width: 250px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 196);
+    color: white;
+    
+}
+.comprar:hover{
+    transition: 500ms;
+    width: 250px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    background-color: rgb(44, 44, 114);
+}
+
+.compartir{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+
+.compartir img{
+    margin: 10px;
+}
+
+.caracteristicas{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(117, 117, 177);
+    font-family: Arial black;
+}
+
+.caracteristicas .texto h5{
+    color: white;
+    margin-left: 600px;
+}
+
+.caracteristicas .infos{
+    display: flex;
+}
+
+.caracteristicas .infos .info{
+    background-color: white;
+    border-radius: 7px;
+    width: 150;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+
+.caracteristicas .infos .info img{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+}
+
+@media screen and(max-width:600px){
+    .caracteristicas{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    .caracteristicas .texto h5{
+        margin-left: 0px;
+    }
+
+    .caracteristicas .infos{
+        display: inline-block;
+    }
+
+
+
+
+}
+
+.acordeon-prod{
+    justify-content: left;
+    width: 700px;
+    padding: 40px;
+    background: transparent;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.2s ease-in;
+ }
+
+
+ 
+ .acordeon-prod-section summary{
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+
+
+ }
+
+ .acordeon-prod-section summary:hover{
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    color: black;
+    border-color:rgb(44, 44, 114);
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    width: 500px;
+    transition: 500ms;
+}
+
+ .acordeon-prod-section p{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgb(44, 44, 114);
+    box-shadow: 5px 5px 8px 2px gray;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    width: 500px;
+    transition: 500ms;
+}
+
+@media screen and(max-width:600px){
+    .acordeon-prod{
+        margin: 10px;
+    }
+    .acordeon-prod{
+        margin: 10px;
+        width: 500px;
+    }
+
+    .acordeon-prod-section p{
+        width: 250px;
+    }
+
+ }

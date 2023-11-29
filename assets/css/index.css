@@ -1,0 +1,627 @@
+body {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+}.cabezera{
+    display:flex;
+    background-color: rgb(117, 117, 177);
+    box-shadow: 0px 0px 8px 8px gray;
+    position: static;
+
+}
+
+@media screen and (max-width:600px){
+    .cabezera{
+        display:flex;
+        width:100%;
+    }
+
+    .cabezera .navbar .lista li label{
+        margin-right: 0px;
+    }
+
+    .cabezera .navbar .lista li .link{
+        visibility: hidden;
+    }
+    .cabezera .navbar .lista li .login{
+        visibility: hidden;
+    }
+}
+
+.cabezera .label{
+    width:15px;
+    height:15px;
+}
+
+.cabezera .logo{
+    background-color: white;
+    border-radius: 0px 100px 100px 0px; 
+}
+
+.cabezera .logo img{
+    width: 270px;
+    height: 90px;
+    border-radius: 0px 100px 100px 0px;
+    margin: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+.navbar{
+    text-align: right;
+}
+
+.lista {
+    display:flex;
+}
+.lista li{
+    font-family: 'Assistant', sans-serif;
+    list-style: none;
+    padding: 20px;
+    font-size: 17px;
+
+}
+
+.lista li a{
+    color: white;
+    text-decoration: solid;
+    color: black bold;
+
+
+}
+
+
+
+.login{
+    background-color: rgb(44, 44, 114);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    width:100px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.login:hover{
+    background-color: rgb(117, 117, 177);
+    width: 150px;
+    height: 100px;
+    background-color: white;
+    color:rgb(44, 44, 114);
+    transition: 500ms;
+}
+
+@media screen and(max-width:375px){
+    .cabezera{
+        background-color: red;
+    }
+    .cabezera .lista li a{
+        visibility: hidden;
+    }
+}
+
+
+
+.link::after{
+    content: "";
+    height: 4px;
+    width: 0;
+    background-color: white;
+    display: block;
+    transition: all 300ms;  
+}
+
+.link:hover::after{
+    width: 100%;
+}
+
+.contenido{
+    justify-content: center;
+    display: flex;
+}
+
+/*Mostrar planes*/
+.contenido .planes{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-attachment:fixed;
+    background-size:cover;
+    background-color:transparent;
+    opacity: 100%;
+    background-blend-mode: lighten;
+    width: 100%;
+    margin-left: 5 px;
+    margin-right: 9px;
+    padding: 0px;
+    border-radius: 5px;
+
+}
+
+.contenido .planes .plan{
+    position:static;
+    background-color:white;
+    color: black;
+    margin: 5px;
+    padding: 0px;
+    width: 320px;
+    max-width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: black solid 2px;
+}
+
+@media screen and(max-width:600px){
+    .contenido .planes .plan{
+        margin:10px;
+    }
+
+}
+
+
+.contenido .planes .plan .info_plan{
+    justify-content: center;
+}
+
+.contenido .planes .plan .cont_titulo{
+    display: flex;
+    padding: 250x;
+}
+
+
+.contenido .planes .plan .gigas{
+    color:  rgb(50, 200, 226);
+    margin: 10px;
+
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.contenido .planes .plan .detalles{
+    font-family: 'PT Sans Narrow', sans-serif;
+    margin: 25px;
+}
+.contenido .planes .plan .detalles img{
+    width: 50px;
+    height: 50px;
+}
+.contenido .planes .plan .cont_titulo{
+    justify-content: center;
+    background-color: rgb(44, 44, 114);
+    font-family: Arial Black;
+    font-size: 35px;
+    color:white;
+    width: 320px;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    position: static;
+}
+
+.contenido .planes .plan .plan-precio{
+    font-family: Arial Black;
+    font-size: 35px;
+    color: rgb(44, 44, 114);
+    width: 500px;
+    margin: 0px;
+    padding: 15px;
+}
+
+.contenido .planes .plan .plan-texto{
+    font-family: Arial Black;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-left: 50px;
+
+}
+
+.contenido .planes .plan  .acordeon-plan{
+    color: black;
+    width: 150px;
+
+}
+/*
+.acordeon-plan .ver_detalles .incluye{
+    border-radius: 5px;
+    font-family: arial black;
+    width: 270px;
+}
+ .acordeon-plan .ver_detalles .incluye:hover{
+    background-color: rgb(44, 44, 114);
+    transition: 500ms;
+    color: white;
+    width: 270px;
+    padding: 10px;
+} 
+
+
+
+.acordeon-plan .ver_detalles .incluye .info_plan ul li{
+    list-style: none;
+}
+
+*/
+.contenido .planes .plan .comenzar{
+    margin:30px;
+    font-family: 'Assistant', sans-serif;
+    width: 250px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 114);
+    color: white;
+}
+
+.contenido .planes .plan .comenzar:hover{
+    background-color: rgb(117, 117, 177);
+    background-color: white;
+    border-color: rgb(44, 44, 114);
+    color:rgb(44, 44, 114);
+    transition: 500ms;
+
+}
+
+.contenido .planes{
+    justify-content: center;
+}
+
+.contenido .planes img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+}
+
+@media screen and (max-width:375px){
+    .contenido .planes{
+        margin: 50px;
+        display: block;
+        flex-wrap: wrap;
+        background-color: rgb(212, 210, 210);
+        width: 1240px;
+        margin: 50px;
+        border-radius: 5px;
+    }
+    
+}
+/*Mostrar planes*/
+/*Info redes*/
+.info_redes{
+    margin: 100px;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-family: Arial black;
+
+}
+.info_redes h3{
+    justify-content: center;
+}
+.info_redes img{
+    width: 200px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+/*Info redes*/
+/*Mostrar productos*/
+.prod{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+
+}
+
+
+/*Mostrar productos*/
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=PT+Sans+Narrow&display=swap');
+/*Mensaje*/
+.mensaje{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 25px;
+}
+
+.mensaje .msg{
+    font-family: 'Assistant', sans-serif;
+    justify-content: center;
+    border-right: 50px;
+    border-right-color: white;
+    color: white;
+    padding: 70px;
+
+}
+.mensaje img{
+    margin-left: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 250px;
+}
+
+@media screen and (max-width:600px){
+    .mensaje{
+        display: block;
+    }
+
+    .mensaje .msg img{
+        width: 300px;
+        height: 300px;
+        border-radius: 250px;
+    }
+
+}
+/*Mensaje*/
+.formulario{
+    justify-content: center;
+    display: flex;
+    
+}
+
+@media screen and (max-width:500px){
+    .formulario{
+        justify-content: left;
+    }
+}
+
+
+.formulario h3{
+    font-family: 'Assistant', sans-serif;
+}
+.formulario img{
+    width: 700px;
+    height: 400px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:500px){
+    .formulario img{
+        width: 500px;
+        height: 200px;
+    }
+}
+
+.formulario input{
+    margin:10px;
+    font-family: 'Assistant', sans-serif;
+    height:40px;
+    width: 250px;
+    border-radius: 10px;
+}
+.formulario select{
+    margin:10px;
+    font-family: 'Assistant', sans-serif;
+    height:40px;
+    width: 250px;
+    border-radius: 10px;
+}
+.formulario .number{
+    margin:10px;
+    font-family: 'Assistant', sans-serif;
+    height:50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.formulario button{
+    margin:30px;
+    font-family: 'Assistant', sans-serif;
+    width: 250px;
+    height:40px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 114);
+    color: white;
+}
+
+.formulario button:hover{
+    background-color: rgb(117, 117, 177);
+    background-color: white;
+    border-color: rgb(44, 44, 114);
+    color:rgb(44, 44, 114);
+    transition: 500ms;
+}
+@media screen and (max-width:600px){
+    .formulario{
+        display: block;
+        margin: 10px;
+    }
+
+    .formulario img{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .formulario h3{
+        margin-left: 70px;
+
+    }
+
+    .formulario input{
+        margin-left: 130px;
+
+    }
+
+    .formulario select{
+        margin-left: 130px;
+    }
+
+    .formulario label{
+        margin-left: 130px;
+
+    }
+    .formulario button{
+        margin-left: 130px;
+
+    }
+
+}
+
+
+/*Pie de pagina*/
+.acordeon{
+    justify-content: left;
+    width: 700px;
+    padding: 40px;
+    background: transparent;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.2s ease-in;
+ }
+
+ @media screen and(max-width:500px){
+    .acordeon{
+        width: 200px;
+    }
+ }
+ 
+ .acordeon summary{
+    font-family: 'Assistant', sans-serif;
+    background-color: rgb(117, 117, 177);
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    width: 500px;
+    border-bottom: 1px rgb(206, 205, 205) solid;
+
+
+
+
+ }
+
+ .acordeon summary:hover{
+    background-color: rgb(44, 44, 114);
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    width: 500px;
+    transition: 0.3s ease-in-out;
+    border-bottom: 1px transparent;
+
+}
+
+ .acordeon p{
+    font-family: 'Assistant', sans-serif;
+    padding: 20px;
+    background-color: rgb(44, 44, 114);
+    border-radius: 0px 0px 5px 5px;
+    border: 2px rgb(117, 117, 177) solid;
+    color: white;
+    width: 500px;
+    transition: 500ms;
+    font-size: 17px;
+}
+
+.servicios .registrate{
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 500px;
+    color: white;
+
+}
+
+.footer{
+    padding: 5px;
+    width: 100%;
+    background-color: rgb(117, 117, 177);
+    justify-content: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+@media screen and(max-width:600px){
+    .footer{
+        display: block;
+    }
+}
+.footer .ayuda{
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.footer .ayuda h4{
+    font-family: 'Assistant', sans-serif;
+    justify-content: center;
+
+}
+.footer .ayuda ul{
+    display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-emphasis: none;
+}
+
+@media screen and (max-width:500px){
+    .footer .ayuda ul{
+        display: block;
+    }
+
+}
+
+
+.footer .ayuda ul a{
+    text-decoration: none;
+    width: 100%;
+    color: white;
+
+}
+
+.footer .ayuda ul .list{
+    font-family: 'Assistant', sans-serif;
+    margin: 50px;
+    text-decoration: none;
+}
+
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright div{
+    margin: 15px;
+}
+.copyright img{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (max-width:500px){
+    .copyright div{
+        margin: 5px;
+    }
+    .copyright img{
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+/*Pie de pagina*/
+
+
+
+
+
+
+
+
+
+

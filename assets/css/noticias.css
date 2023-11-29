@@ -1,0 +1,121 @@
+  @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@500&family=Libre+Baskerville:ital@1&family=PT+Sans+Narrow&display=swap');
+body {
+    width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.fondo{
+    background-image: url(../img/fondo_pag_not.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.titulo{
+    padding: 250px 100px 100px 100px;
+    
+
+}
+
+.titulo h3{
+    padding: 2px;
+    border-radius: 10px;
+    width: 150px;
+    color: white;
+    font-family: Arial Black;
+
+}
+.titulo p{
+    font-family: 'Assistant', sans-serif;
+    text-shadow: 5px px 1px white;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+.titulo a{
+    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 0px 5px 2px 0px black;
+    position: static;
+
+}
+
+
+@media screen and(max-width:600px){
+    .titulo{
+        padding: 50px;
+    }
+}
+
+/*Contenido*/
+
+.contenido{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contenido .noticia{
+    background-color:rgb(193, 193, 218);
+    color: black;
+    margin: 20px;
+    padding: 0px;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.contenido .noticia img{
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.contenido .noticia img:hover{
+    width: 500px;
+    height: auto;
+    transition: 500ms;
+    opacity: 90%;
+}
+
+
+
+.contenido .noticia .detalles{
+    font-family: 'Libre Baskerville', serif;
+    margin: 30px;
+}
+
+.contenido .noticia .detalles .info{
+        background-color: rgb(44, 44, 114);
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        width:100px;
+        height: 50px;
+        border-radius: 10px;
+        
+
+}
+
+.contenido .noticia .detalles .info:hover{
+        background-color: white;
+        color: rgb(44, 44, 114);
+        transition: 500ms;
+}
+
+/*Contenido*/
