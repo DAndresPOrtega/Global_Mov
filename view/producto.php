@@ -64,7 +64,7 @@
     <!--Acá se mostrarán unas "Migas de pan" que servirán al usuario para ver en que 
     Sección de la página se encuentra y como volver a una sección anterior.-->
     <div class="migas_de_pan">
-        <a href="tienda.php">Tienda </a>/<a href="producto.php">Producto</a>
+        <a href="tienda.php">Tienda </a>/<a href="#">Producto</a>
     </div>
     <!--Acá se mostrarán unas "Migas de pan" que servirán al usuario para ver en que 
     Sección de la página se encuentra y como volver a una sección anterior.-->
