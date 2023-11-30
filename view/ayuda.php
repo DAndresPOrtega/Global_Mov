@@ -60,7 +60,7 @@
     <div class="titulo">
         <h3>Ayuda:</h3>
         <p>Podemos resolver tus dudas a traves de esta seccion.</p>
-        <a href="index.php">Inicio</a> / <a href="noticias.php">Noticias</a>
+        <a href="index.php">Inicio</a> / <a href="ayuda.php">Noticias</a>
     </div>
     <!--Titulo de la pagina con un "titulo" y  un texto explicativo de la seccion"-->
     <!--Contenido de la pagina-->
