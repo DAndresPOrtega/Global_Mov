@@ -47,7 +47,7 @@
     <div class="titulo">
         <h3>Noticias:</h3>
         <p>Puedes mantenerte informado a traves de esta seccion.</p>
-        <a href="">Inicio</a> / <a href="">Noticias</a>
+        <a href="index.php">Inicio</a> / <a href="noticias.php">Noticias</a>
     </div>
     <div class="contenido">
     <!--Navbar vertical-->
