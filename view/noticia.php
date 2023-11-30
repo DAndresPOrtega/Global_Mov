@@ -66,7 +66,7 @@
     <div class="titulo">
                 <h3>Noticias:</h3>
                 <p>Puedes mantenerte informado a traves de esta seccion.</p>
-                <a href="">Inicio</a> / <a href="">Noticias</a>
+                <a href="noticias.php">Noticias</a> / <a href="noticia.php">Noticia</a>
     </div>
     <!--Aca se muestra la noticia-->
     <div class="contenido_noticia">
