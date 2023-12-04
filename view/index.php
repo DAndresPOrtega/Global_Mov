@@ -64,7 +64,9 @@
     <!--Menu vertical-->
     <input type="checkbox" id="btn-menu">
     <div class="container-menu">
+    <!--
     <img src="../assets/img/global mov logo.jpeg" alt="">
+    -->
         <div class="cont-menu">
             <nav>
                 <a href="index.php">Personas</a>
@@ -397,122 +399,122 @@
             <div class="swiper-container mySwiper">
             
                 <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel2.png"
-                            alt="">
-                        <div class="card-description">
-                            <div class="card-title">
-                                <h4>Redmi Note 10</h4>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel2.png"
+                                alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Redmi Note 10</h4>
+                                </div>
+                                <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    modi
+                                    sunt ips.</p>
+                                <h5>$32.000</h5>
+                                <p>Antes: 40.000</p>
+                                </div>
+                                <div class="card-link">
+                                <a href="#">Ver más</a>
+                                </div>
                             </div>
-                            <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
-                            </div>
-                            <div class="card-link">
-                            <a href="#">Ver más</a>
-                            </div>
-                        </div>
 
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel3.jpg"
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel3.jpg"
+                                alt="">
+                                <div class="card-description">
+                                    <div class="card-title">
+                                        <h4>Redmi Note 10</h4>
+                                    </div>
+                                    <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        modi
+                                        sunt ips.</p>
+                                    <h5>$32.000</h5>
+                                    <p>Antes: 40.000</p>
+                                    </div>
+                                    <div class="card-link">
+                                    <a href="#">Ver más</a>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel4.png"
                             alt="">
-                        <div class="card-description">
-                            <div class="card-title">
-                                <h4>Redmi Note 10</h4>
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>MOTOROLA G71 128GB VERDE</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        modi
+                                        sunt ips.</p>
+                                    <h5>$32.000</h5>
+                                    <p>Antes: 40.000</p>
+                                </div>
+                                <div class="card-link">
+                                <a href="#">Ver más</a>
+                                </div>
                             </div>
-                            <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel2.png"
+                            alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Descripción</h4>
+                                </div>
+                                <div class="card-text">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        modi
+                                        sunt ips.</p>
+                                    <h5>$32.000</h5>
+                                    <p>Antes: 40.000</p>
+                                </div>
+                                <div class="card-link">
+                                <a href="#">Ver más</a>
+                                </div>
                             </div>
-                            <div class="card-link">
-                            <a href="#">Ver más</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel3.jpg"
+                            alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Descripción</h4>
+                                </div>
+                                <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        modi
+                                        sunt ips.</p>
+                                    <h5>$32.000</h5>
+                                    <p>Antes: 40.000</p>
+                                </div>
+                                <div class="card-link">
+                                <a href="#">Ver más</a>
+                                </div>
                             </div>
-                    </div>
-                </div>
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel4.png"
-                        alt="">
-                    <div class="card-description">
-                        <div class="card-title">
-                            <h4>MOTOROLA G71 128GB VERDE</h4>
                         </div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
+                    
+                        <div class="swiper-slide">
+                            <img src="../assets/img/cel4.png"
+                            alt="">
+                            <div class="card-description">
+                                <div class="card-title">
+                                    <h4>Galaxy A54 5G 256GB</h4>
+                                </div>
+                                <div class="card-text">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        modi
+                                        sunt ips.</p>
+                                    <h5>$32.000</h5>
+                                    <p>Antes: 40.000</p>
+                                </div>
+                                <div class="card-link">
+                                <a href="#">Ver más</a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-link">
-                        <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel2.png"
-                        alt="">
-                    <div class="card-description">
-                        <div class="card-title">
-                            <h4>Descripción</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
-                        </div>
-                        <div class="card-link">
-                        <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel3.jpg"
-                        alt="">
-                    <div class="card-description">
-                        <div class="card-title">
-                            <h4>Descripción</h4>
-                        </div>
-                        <div class="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
-                        </div>
-                        <div class="card-link">
-                        <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
-                
-                    <div class="swiper-slide">
-                        <img src="../assets/img/cel4.png"
-                        alt="">
-                    <div class="card-description">
-                        <div class="card-title">
-                            <h4>Galaxy A54 5G 256GB</h4>
-                        </div>
-                        <div class="card-text">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                modi
-                                sunt ips.</p>
-                            <h5>$32.000</h5>
-                            <p>Antes: 40.000</p>
-                        </div>
-                        <div class="card-link">
-                        <a href="#">Ver más</a>
-                        </div>
-                    </div>
-                </div>
                     </div>
         
                 </div>
@@ -525,6 +527,7 @@
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="../assets/js/carrusel_slider.js"></script>
+    <script src="../assets/js/producto.js"></script>
     <!-- Swiper JS -->
     <!--<div class="slider-wrapper">
         <button id="prev-slide" class="slide-button material-symbols-rounded">
@@ -660,16 +663,14 @@
         <div>
             <h3>Dejanos tus datos y en breve te
                 contactaremos:</h3>
-            <form action="">
-                <input type="text" name="" id="" placeholder="Nombre">
-                <input type="text" name="" id="" placeholder="Telefono">
-                <input type="text" name="" id="" placeholder="Correo">
-                <select type="text" name="" id="" placeholder="Departamento">
-                            <option value="">Departamento</option>
-                </select><br>
-                <label for="">5+5:</label>
-                <input class="number" type="number">
-                <button>Enviar</button>
+            <form action="https://formsubmit.co/diegoortega3800@gmail.com" method="POST">
+                <input type="text" name="name" id="" placeholder="Nombre">
+                <input type="text" name="email" id="" placeholder="Email">
+                <input type="text" name="subject" id="" placeholder="Asunto">
+                <input type="text" name="comments" id="" placeholder="Comentarios">
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_next" value="http://localhost:8080">
+                <input type="hidden" name="_captcha" value="false">
             </form>
         </div>
   </div>
@@ -762,9 +763,9 @@
     <!-- Copyright -->
     <div class="copyright">
       <div>
-        <img src="../assets/img/facebook.svg" alt="">
-        <img src="../assets/img/instagram.svg" alt="">
-        <img src="../assets/img/whatsapp.svg" alt="">
+        <img src="../assets/img/facebook.png" alt="">
+        <img src="../assets/img/instagram.png" alt="">
+        <img src="../assets/img/whatsapp.png" alt="">
       </div>
       <div>© TODOS LOS DERECHOS RESERVADOS:</div>
     </div>

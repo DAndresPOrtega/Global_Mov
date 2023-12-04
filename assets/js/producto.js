@@ -57,7 +57,7 @@ function displayProducts(page) {
         width:100px;
         height: 50px;
         border-radius: 10px;" 
-        href="producto.php?nombre=${product.name}">
+        href="producto.php?id=${product.id}">
             Ver producto
     </a>`;
     // Agregar un evento de clic para redirigir a la página de detalles
