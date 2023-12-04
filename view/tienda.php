@@ -204,7 +204,7 @@
     <!--Aca se mostraran unas "Migas de pan" que serviran al usuario para ver en que 
     seccion de la pagina se encuentra y como volver a una seccion anterior.-->
     <div class="migas_de_pan">
-            <a href="tienda.php">Inicio </a>/<a href="producto.php">Tienda</a>
+            <a href="index.php">Inicio </a>/<a href="tienda.php">Tienda</a>
     </div>
     <div class="contenido_tienda">
     <!--Aca se mostraran unas "Migas de pan" que serviran al usuario para ver en que 

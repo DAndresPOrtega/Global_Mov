@@ -47,7 +47,7 @@
     <div class="titulo">
         <h3>Noticias:</h3>
         <p>Puedes mantenerte informado a traves de esta seccion.</p>
-        <a href="">Inicio</a> / <a href="">Noticias</a>
+        <a href="index.php">Inicio</a> / <a href="noticias.php">Noticias</a>
     </div>
     <div class="contenido">
     <!--Navbar vertical-->
@@ -86,7 +86,7 @@
             <hr>
             <p>Por Adminweb | Noticias, Smobi</p>
             <br>
-            <a class="info" href="">Mas informacion</a>
+            <a class="info" href="noticia.php">Mas informacion</a>
           </div>
         </div>
         <div class="noticia">
@@ -96,7 +96,7 @@
             <hr>
             <p>por Adminweb | Noticias, Smobi</p>
             <br>
-            <a class="info" href="">Mas informacion</a>
+            <a class="info" href="noticia.php">Mas informacion</a>
           </div>
         </div>
         <div class="noticia">
@@ -106,7 +106,7 @@
             <hr>
             <p>Por Adminweb | Smobi, Técnologia</p>
             <br>
-            <a class="info" href="">Mas informacion</a>
+            <a class="info" href="noticia.php">Mas informacion</a>
           </div>
         </div>
         <div class="noticia">
@@ -116,7 +116,7 @@
             <hr>
             <p>Por Adminweb | Noticias, Técnologia</p>
             <br>
-            <a class="info" href="">Mas informacion</a>
+            <a class="info" href="noticia.php">Mas informacion</a>
           </div>
         </div>
         <div class="noticia">
@@ -126,7 +126,7 @@
             <hr>
             <p>Por Adminweb | Noticias, Smobi</p>
             <br>
-            <a class="info" href="">Mas informacion</a>
+            <a class="info" href="noticia.php">Mas informacion</a>
           </div>
         </div>
     </div>
